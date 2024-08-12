@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset> <legend> <h2>Registration Form</h2></legend>
+<fieldset>
+
+    <legend><h4>Personal details</h4></legend>
+<label for="Studentname">Student name </label>
+<input type="text" name="Studentname" id="Studentname" ><br>
+<label for="StudentNIC">Student CNIC  </label>
+<input type="number" required name="StudentNIC" placeholder="11122-23334445-5"  id="StudentNIC"><br>
+<label for="emailID">Email ID </label>
+<input type="email" name="emailID" id="emailID">
+
+</fieldset>
+
+
+<fieldset>
+<legend>
+    <h4>Eductional details</h4>
+</legend>
+
+<label for="Qualification">Qualification</label>
+
+<select name="Qualification" id="Qualification">
+<option value=""></option>
+<option value="Matric">Matric</option>
+<option value="intermediate">intermediate</option>
+<option value="Graduation">Graduation</option>
+<option value="Master">Master</option>
+
+</select>
+<br><br>
+<label for="study"><h4>Field of Study</h4></label>
+
+<select name="study" id="study">
+    <option value=""></option>
+    <option value="">Computer Science</option>
+    <option value="">Engineering </option>
+    <option value="">Medical </option>
+    <option value="">Commerce </option>
+</select>
+<br><br>
+<label for="year">Admission of Year</label>
+<select name="year" id="year">
+
+    <option value=""></option>
+    <option value="">2024</option>
+    <option value="">2023</option>
+    <option value="">2022</option>
+    <option value="">2021</option>
+</select>
+</fieldset>
+
+
+<fieldset><legend><h4>Preference Details</h4></legend>
+
+<label for="Skills">Course's</label>
+<label for="c++">C++</label>
+<input type="checkbox"name="c++" id="c++">
+<label for="Python">Python</label>
+<input type="checkbox"name="Python" id="Python">
+<label for="JS">Javascript</label>
+<input type="checkbox" name="JS" id="JS"><br>
+<label for="html">HTML</label>
+<input type="checkbox" name="html" id="html"><br>
+<label for="css">CSS</label>
+<input type="checkbox" name="css" id="css">
+
+
+<label for="name">Institute Name</label>
+<input type="text" required  id="name"><br>
+<label for="">Admission of Year</label>
+<br>
+<label for="year">2024</label>
+<input type="radio" name="group1" value="group1" id="year">
+<label for="year">2023</label>
+<input type="radio" name="group1" value="group1"id="year    ">
+<label for="year">2022</label>
+<input type="radio" name="group1" value="group1"id="year">
+<label for="year">2021</label>
+<input onclick="console.log(value);
+" type="radio"name="group1" value="group1"id="year">
+
+
+</fieldset>
+
+<fieldset><legend>Gender</legend>
+
+<label for="male">Male</label>
+<input type="radio" name="group" value="male">
+<label for="female">Female</label>
+<input onclick="console.log(value);
+" type="radio"name="group" value="female">
+<br><br>
+<label for="">Feedback</label>
+<textarea name="" id=""></textarea>
+</fieldset>
+<br>
+<label for="">Upload image</label><br>
+<input type="file">
+        </fieldset>
+
+ <button style="border-radius: 3px;">Submit</button>
+<center><h3>Your Form successfully submit</h3></center>    
+</form>
+    
+</body>
+</html>
